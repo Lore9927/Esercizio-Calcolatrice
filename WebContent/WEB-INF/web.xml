@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>esercizio-calcolatrice</display-name>
+  <servlet>
+  	<servlet-name>Somma</servlet-name>
+  	<servlet-class>it.objectmethod.calcolatrice.servlets.SommaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Somma</servlet-name>
+  	<url-pattern>/SommaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Sottr</servlet-name>
+  	<servlet-class>it.objectmethod.calcolatrice.servlets.SottrServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Sottr</servlet-name>
+  	<url-pattern>/SottrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Moltip</servlet-name>
+  	<servlet-class>it.objectmethod.calcolatrice.servlets.MoltipServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Moltip</servlet-name>
+  	<url-pattern>/MoltipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Divisione</servlet-name>
+  	<servlet-class>it.objectmethod.calcolatrice.servlets.DivisioneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Divisione</servlet-name>
+  	<url-pattern>/DivisioneServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
